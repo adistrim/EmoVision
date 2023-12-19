@@ -12,7 +12,7 @@ EmoVision is a real-time emotion recognition project using deep learning. It cap
 
 1. Clone the repository:
 
-    git clone https://github.com/your-username/EmoVision.git
+    git clone https://github.com/adistrim/EmoVision.git
 
 2. Install required libraries 
 
