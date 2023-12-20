@@ -14,9 +14,13 @@ EmoVision is a real-time emotion recognition project using deep learning. It cap
 
     git clone https://github.com/your-username/EmoVision.git
 
-2. Install required libraries 
+2. Install required libraries:
 
     pip install -r requirements.txt
+
+3. Execute the realtime.ipynb file.
+
+4. Press 'Q' to end the program.
 
 ### License
 This project is licensed under the [MIT License](https://www.mit.edu/~amini/LICENSE.md).
