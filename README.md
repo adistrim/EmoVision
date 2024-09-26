@@ -26,17 +26,26 @@ The training process took a total of 6 hours and 34 minutes on a [2020 M1 MacBoo
 
 ## Getting Started
 
+**Dependency: `python 3.11.9` others are mentioned in the `requirements.txt` file**
+
 1. Clone the repository:
+```bash
+git clone https://github.com/adistrim/EmoVision.git
+```
+2. Setup virtual environment:
+```bash
+cd EmoVision
+python3 -m venv .venv               # python or python3 depending on the system config
+source .venv/bin/activate           # For Linux and macOS
+```
 
-    git clone https://github.com/adistrim/EmoVision.git
+3. Install required libraries:
+```bash
+pip3 install -r requirements.txt    # pip or pip3 depending on the system config
+```
+4. Execute the realtime.ipynb file.
 
-2. Install required libraries:
-
-    pip install -r requirements.txt
-
-3. Execute the realtime.ipynb file.
-
-4. Press 'Q' to end the program.
+5. Press 'Q' to end the program.
 
 ## License
 This project is licensed under the [MIT License](https://www.mit.edu/~amini/LICENSE.md).
