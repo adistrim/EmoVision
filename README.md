@@ -12,6 +12,7 @@ EmoVision is a real-time emotion recognition project using deep learning. It cap
 
 The model is trained on the [Face Expression Recognition Dataset](https://www.kaggle.com/datasets/jonathanoheix/face-expression-recognition-dataset) from Kaggle, which consists of 35 thousand images with labeled emotions.
 
+**Processed Data can be downloaded from here: [emovision-google-drive](https://drive.google.com/drive/folders/1MIwS0kAWUqcRxHqpXzoPqQ73AsBSCPWy?usp=sharing)**
 
 ## Model Training
 
@@ -23,6 +24,20 @@ The model was trained for 100 epochs, and the final epoch's metrics are as follo
 - Validation accuracy: 63.08%
 
 The training process took a total of 6 hours and 34 minutes on a [2020 M1 MacBook Air](https://en.wikipedia.org/wiki/MacBook_Air_(Apple_silicon)).
+
+**Trained Models can be downloaded from here: [emovision-google-drive](https://drive.google.com/drive/folders/1MIwS0kAWUqcRxHqpXzoPqQ73AsBSCPWy?usp=sharing)**
+
+### GPU Training
+GPU: NVIDIA RTX 3070
+- cuDNN version 8.9.7.29 
+- CUDA 11.8
+- nvidia-driver-560
+- Tensorflow version 2.12.0
+
+OS: Ubuntu 22.0.4
+
+### Training insights
+![Training insights](plot/Figure_1.png)
 
 ## Getting Started
 
