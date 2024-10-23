@@ -63,4 +63,4 @@ pip3 install -r requirements.txt    # pip or pip3 depending on the system config
 5. Press 'Q' to end the program.
 
 ## License
-This project is licensed under the [MIT License](https://www.mit.edu/~amini/LICENSE.md).
+This project is licensed under the [MIT License](LICENSE).
